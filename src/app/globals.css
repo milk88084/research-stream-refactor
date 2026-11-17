@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, "PingFang TC", "Noto Sans TC", sans-serif; background: #f6f7f9; color: #1d2330; }
+main { max-width: 760px; margin: 40px auto; padding: 0 20px; }
+h1 { font-size: 22px; margin: 0 0 4px; }
+.sub { color: #5b6475; margin: 0 0 24px; font-size: 14px; }
+.card { background: #fff; border: 1px solid #e3e6ec; border-radius: 10px; padding: 18px; margin-bottom: 16px; }
+label { display: block; font-size: 13px; color: #5b6475; margin-bottom: 6px; }
+input, select { width: 100%; padding: 8px 10px; border: 1px solid #cfd4dd; border-radius: 6px; font-size: 14px; margin-bottom: 12px; }
+.row { display: flex; gap: 8px; }
+button { padding: 9px 16px; border-radius: 6px; border: 1px solid #cfd4dd; background: #fff; cursor: pointer; font-size: 14px; }
+button.primary { background: #2456d6; border-color: #2456d6; color: #fff; }
+button:disabled { opacity: .45; cursor: not-allowed; }
+.status { font-weight: 600; }
+.status.completed { color: #1d7a3e; } .status.error { color: #b42318; } .status.interrupted { color: #9a5b00; }
+ul.tasks { list-style: none; padding: 0; margin: 12px 0 0; }
+ul.tasks li { padding: 6px 0; border-top: 1px solid #eef0f4; font-size: 14px; display: flex; gap: 10px; }
+.badge { font-size: 12px; padding: 1px 8px; border-radius: 99px; background: #eef0f4; min-width: 64px; text-align: center; }
+.badge.running { background: #e5edff; color: #2456d6; } .badge.completed { background: #e3f4e9; color: #1d7a3e; } .badge.error { background: #fde7e5; color: #b42318; }
+pre { white-space: pre-wrap; background: #f6f7f9; padding: 12px; border-radius: 6px; font-size: 13px; margin: 8px 0 0; }
+.note { font-size: 13px; color: #5b6475; }
